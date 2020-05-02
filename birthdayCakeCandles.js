@@ -28,5 +28,15 @@ ar.forEach((element) => {
   }
 });
 
+/*
+how the for each loop goes the numbers in the array 
+tallestCandle = 3 bc tallestCandle = ar[ar.length - 1] 
+and the array numbers are : 1, 2, 3, 3
+3 to 3
+3 to 3
+3 to 2
+3 to 1
+*/
+
 //console.log just prints out the value in the console, so instead use return
 return counter;
