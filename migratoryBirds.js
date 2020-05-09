@@ -39,7 +39,7 @@ for (let p = 0; p < arr.length; p++) {
   }
 }
 
-console.log(duplicatesArray[0]);
+console.log(duplicatesArray);
 return duplicatesArray[0];
 
 /*

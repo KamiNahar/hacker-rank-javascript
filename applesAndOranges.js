@@ -7,10 +7,10 @@ let s = 7;
 let t = 11;
 
 //number of oranges
-let n = 2;
+//let n = 2;
 
 //number of apples
-let m = 3;
+//let m = 3;
 
 //apple tree location
 let a = 5;
