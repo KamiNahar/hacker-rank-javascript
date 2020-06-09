@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?h_r=internal-search
 //divide sum by k
 let k = 3;
 
