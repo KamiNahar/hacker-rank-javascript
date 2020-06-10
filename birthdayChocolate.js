@@ -109,10 +109,9 @@ let counter = 0;
 
 for (let i = 0; i < s.length; i++) {
   //set i back to zero so that you can start from the first index of the array for each iteration.
-  i = 0;
   mHolder = m;
   //as long as mHolder is greater than zero this while loop will run
-  while (mHolder > 0 && s.length > 0) {
+  while (mHolder > 0) {
     //continuously adds the values of the indexes together for each iteration
     sum += s[i];
     //adds one to i in each iteration, add one to i so that in the next iteration the next number gets added to sum. Note - youre using i in your sum equation
@@ -123,6 +122,7 @@ for (let i = 0; i < s.length; i++) {
     counter++;
   }
   sum = 0;
+  i = -1;
   s.shift();
 }
 console.log(counter);

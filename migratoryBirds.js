@@ -1,8 +1,8 @@
-//number of birds sighted
-let n = 0;
-
 //types of birds sighted placed in an array
 let arr = [1, 3, 3, 4, 4, 4, 5, 3, 2, 2, 1, 0];
+
+//number of birds sighted
+let n = 0;
 
 //declare variables used to store nums we compare in the array to one another
 //declaring variables takes up space and time, so should do that only once
@@ -40,5 +40,3 @@ for (let p = 0; p < arr.length; p++) {
 }
 
 console.log(duplicatesArray);
-return duplicatesArray[0];
-
